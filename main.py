@@ -127,10 +127,10 @@ def generate_output(cars_set: set, exchange_rate: float, output_path: str):
 
 def main():
     # Use paths relative to the container's working directory
-    csv_file_path = 'cars_data.csv'
+    csv_file_path = 'data/inputs/cars_data.csv'
 
     # Set the output path to use the mounted volume directory
-    output_path = "/data/car_permutations.xlsx"
+    output_path = "/data/outputs/car_permutations.xlsx"
 
     print(f"Current working directory: {os.getcwd()}")
     print(f"Directory contents: {os.listdir(os.getcwd())}")

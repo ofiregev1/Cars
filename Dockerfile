@@ -12,10 +12,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Create a directory for the mounted volume
-RUN mkdir -p /data
+RUN mkdir -p /data/outputs
 
 # Set permissions for the data directory
-RUN chmod 777 /data
+RUN chmod 777 /data/outputs
 
 # Run the application
 CMD ["python", "main.py"]
