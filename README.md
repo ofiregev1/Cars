@@ -41,7 +41,7 @@ This project generates unique car permutations based on property data and condit
    Build and run the Docker container to generate the output file:
    ```bash
    docker build -t car-permutations .
-   docker run -v "$(pwd)/data/outputs:/data/outputs" car_generation_app
+   docker run -v "$(pwd)/data/outputs:/data/outputs" car-permutations
    ```
 
 ## Usage
