@@ -1,7 +1,3 @@
-Here's a sample `README.md` for your project:
-
----
-
 # Car Permutation Generator
 
 This project generates unique car permutations based on property data and conditions defined in a CSV file. The program then calculates the price of each car configuration and outputs the results to an Excel file.
@@ -113,10 +109,3 @@ The program saves the final results to an Excel file (`car_permutations.xlsx`) w
 | True          | 100     | None          | Red      | {'brand': 'Tesla', ...}   | 10,000      |
 | ...           | ...     | ...           | ...      | ...                       | ...         |
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
-Replace `yourusername` in the clone command with your GitHub username if you plan to include the repository link in the README. This should provide clear instructions and expectations for users and developers working with the project.
